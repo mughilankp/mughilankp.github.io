@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to right,rgb(205, 33, 125) , rgb(245, 87, 161),rgb(163, 72, 72));
+}
+
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.header ul{
+    text-align: center;
+    margin-left: 680px ;
+    color: white;
+}
+.header li{
+    float: left;
+    padding: 15px;
+}
+
+.intro{
+    padding:60px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.intro_sec{
+    float: left;
+    width: 50%;
+    color: cornsilk;
+}
+
+.contact_info{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 60px 0;
+    color: cornsilk;
+}
