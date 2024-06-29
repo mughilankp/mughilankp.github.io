@@ -3,29 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <div class="header">
-        <ul>
-            <li>
-                <a href="./index.html">Home</a>
-            </li>
-            <li>
-                <a href="./contact.html">Contact</a>
-            </li>
-        </ul>
-    </div>
+    <header>
+        <div class="logo">mugh<span class="highlight">ilan.</span></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://online.flippingbook.com/view/419182550/" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="intro">
-        <div class="intro_sec">
-            <h3>Hi I'm</h3>
-            <h1>Mughilan KP</h1>
+    <main>
+        <div class="hero container">
+            <div class="hero-text">
+                <p class="hi-all">Hi all <span class="wave"> 👋</span></p>
+                <div class="typewriter">
+                    <h1>I'm Mughilan</h1>
+                </div>
+                <h2>Welcome to My Portfolio</h2>
+            </div>
         </div>
-        <div class="intro_sec">
-            <img src="download.jpeg" alt="">
-        </div>
-    </div>
+        <section id="about" class="container about-section">
+            <div class="abt_cnt">
+                <h1>About Me</h1><br>
+                <p>Hello! I'm Mughilan, an aspiring Frontend Developer with foundational knowledge in HTML and CSS. Currently, I am focusing on mastering JavaScript fundamentals and eager to transition my skills to React.js for developing interactive web applications. I am dedicated to continuous learning and applying best practices to deliver user-friendly frontend solutions.</p>
+                <p>My journey into frontend development started with a strong passion for creating visually appealing and intuitive user interfaces. I enjoy the process of turning design concepts into responsive and functional web experiences.</p>
+                <p>Outside of coding, I like to explore new technologies, contribute to open-source projects, and stay updated with the latest trends in frontend development. I believe in the power of collaboration and strive to contribute positively to every team I work with.</p>
+                <p>I am excited about the opportunity to grow as a developer and contribute to innovative projects that make a positive impact.</p>
+                <button class="res_btn"><a href="https://online.flippingbook.com/view/419182550/">Download Resume</a></button>
+            </div>
+            <div class="about-social-icons social-icons">
+                <a href="https://github.com/mughilankp" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mughilan-kp-a81563281/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- Add more social icons as needed -->
+            </div>
+        </section>
+        
+        
+        <section id="projects" class="container">
+            <h1>Projects</h1>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="line follower robot.png" alt="Project 1">
+                    <h2>Line Follower Robot using Arduino UNO</h2>
+                    <p>Engineered an Arduino Uno-based line follower robot capable of autonomously
+                        tracking paths using infrared sensors.</p>
+                </div>
+                <div class="project-card">
+                    <img src="multiple disease pred.png" alt="Project 2">
+                    <h2>ML-Based Multi-Disease Prediction System on Streamlit
+                    </h2>
+                    <p>Developed a multi-disease prediction system using ML to forecast Hepatitis-C and
+                        Prostate Cancer outcomes. Integrated the best-performing algorithm into a
+                        Streamlit app for user input and detailed results.
+                        </p>
+                </div>
+                <div class="project-card">
+                    <img src="dad joke.png" alt="Project 3">
+                    <h2>Dad Jokes Web App</h2>
+                    <p>Developed a web app using HTML, CSS, and JavaScript to fetch and display dad jokes from an API. Designed for user-friendly interaction and enjoyable joke browsing.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="container">
+            <h1>Contact</h1>
+            <p>Feel free to reach out to me via any of the following methods:</p>
+            <div class="contact-icons">
+                <div class="social-icons">
+                    <a href="https://github.com/mughilankp" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mughilan-kp-a81563281/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mail to:kpmughilan03@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+919360427365"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
